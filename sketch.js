@@ -22,19 +22,7 @@ function setup() {
   
 function draw() {
   background("skyblue");
-  for(var i=0;i<6;i++){
-    var bottomGrass1 = createSprite(683,height-50-(i*400),width,grassHeight);
-    if(i%2===0)
-    {
-      var road =createSprite(683,height-150-(i*400)-grassHeight,width,300,)
-      road.shapeColor="black";
-    }
-    bottomGrass1.shapeColor = "grey";
-  }
-
   
-   
- }
 
   drawSprites();
 }
