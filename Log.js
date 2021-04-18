@@ -10,12 +10,7 @@ class Log{
         this.spt.shapeColor = "brown";
         this.spt.scale=0.1;
 
-        for(i=1;i<logGroup1.length;i++){
-            if(logGroup1[i].x<0)
-            {
-              logGroup1[i].x=width;
-            }
-          }
+        
         
 
     }
